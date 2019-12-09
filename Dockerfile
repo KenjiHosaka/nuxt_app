@@ -1,0 +1,7 @@
+FROM node:13.1
+
+ENV APP_ROOT /usr/src/nuxt_app
+
+WORKDIR $APP_ROOT
+
+EXPOSE 5050
